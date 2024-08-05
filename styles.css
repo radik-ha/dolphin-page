@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+* {
+	 font-family: "Roboto", sans-serif;
+}
+
+body {
+	background-image: url("https://i.pinimg.com/originals/76/6d/78/766d780bb1040ebdd0535ae75326796b.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content {
+	width: 35rem;
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: row;
+}
+
+.content a {
+	background-color: white;
+	color: black;
+	padding: 0.3rem;
+	border-radius: 1rem;
+	text-decoration: none;
+	margin-right: 1rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	transition: 0.03s;
+}  
+
+.content a:hover {
+	width: 7rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	color: white;
+
+}
+
+.text {
+	position: fixed;
+	left: 50%;
+	top: 10rem;
+	transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text h1 {
+	font-size: 6rem;
+	font-weight: bolder;
+	color: white;
+}
+
+#dolphin {
+	width: 20%;
+	transform: rotateY(170deg);
+	position: fixed;
+	top: 4rem;
+	left: 4rem;
+	transition: 0.4s;
+}
+
+#dolphin:hover {
+	transform: rotate(1deg);
+}
+
+.text a {
+	position: fixed;
+    left: 50%;
+    top: 80%;
+	transform: translate(-50%);
+	background-color: white;
+    width: 9vw;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.text a:hover {
+	background-color: black;
+	color: white;
+}
